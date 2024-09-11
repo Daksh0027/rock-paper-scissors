@@ -1,6 +1,6 @@
-import random
+import random #module used to bring random functions like random.choice(), etc,. into the program for use
 
-# Initialize scoreboard
+#scoreboard
 user_score = 0
 computer_score = 0
 
@@ -51,6 +51,6 @@ while True:
             computer_score += 1
             print("   | O ")
 
-    #current score
+    #score
     print(f"\nScoreboard:")
     print(f" You: {user_score} | Computer: {computer_score}")
